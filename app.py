@@ -67,6 +67,10 @@ def get_database():
     conn.close()
     return jsonify(db_dump)
 
+@app.route("/health", methods=["GET"])
+def health():
+    return jsonify({"status": "ok"}), 200
+
 @app.route("/", methods=["GET"])
 def home():
     with open('test.html', 'r') as f:
