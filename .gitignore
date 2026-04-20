@@ -1,0 +1,23 @@
+*
+!.gitignore
+!.env.example
+!README.md
+!requirements.txt
+!app.py
+!DB_test.py
+!run_ssl.py
+!setup_https_local.sh
+!start_https_vm.sh
+!test.html
+!database_dump.sql
+!website/
+!website/**
+
+# Never commit secrets or generated TLS assets
+.env
+key.pem
+cert.pem
+
+# Python cache
+__pycache__/
+*.py[cod]
