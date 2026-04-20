@@ -32,7 +32,8 @@ Flask app that serves PostgreSQL data over HTTPS and renders it in a simple fron
 - `GET /`: returns the frontend page
 - `GET /database`: returns all public tables and rows
 - `GET /employees`: returns employees table rows
-- `POST /employees`: inserts a new employee
+- `POST /employees`: inserts a new employee (`name`, `role`, `salary`)
+- `GET /health`: service + database health check
 
 ## Deployment and security checklist
 See `DEPLOYMENT_CHECKLIST.md` before sharing or deploying this app.
