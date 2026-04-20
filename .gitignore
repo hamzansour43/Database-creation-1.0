@@ -2,6 +2,7 @@
 !.gitignore
 !.env.example
 !README.md
+!DEPLOYMENT_CHECKLIST.md
 !requirements.txt
 !app.py
 !DB_test.py
